@@ -1,6 +1,0 @@
-dependencies:
-- name: petstore
-  repository: https://raw.githubusercontent.com/grantking/helm-repo/master
-  version: 0.1.0
-digest: sha256:b3b763aae28d7187cdb96cbb4dfda3410e6ffbe5b8b30c652005cdbabb39baf4
-generated: "2023-08-09T15:11:55.264634-07:00"
