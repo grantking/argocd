@@ -11,12 +11,12 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-#    path: helm-petstore
-#    repoURL: {{ .Values.spec.source.repoURL }}
-#    targetRevision: {{ .Values.spec.source.targetRevision }}
+    path: helm-petstore
+    repoURL: {{ .Values.spec.source.repoURL }}
+    targetRevision: {{ .Values.spec.source.targetRevision }}
 
-    chart: petstore
-    repoURL: https://raw.githubusercontent.com/grantking/helm-repo/master
-    targetRevision: 0.1.0
-    helm:
-      releaseName: petstore
+#    chart: petstore
+#    repoURL: https://raw.githubusercontent.com/grantking/helm-repo/master
+#    targetRevision: 0.1.0
+#    helm:
+#      releaseName: petstore
