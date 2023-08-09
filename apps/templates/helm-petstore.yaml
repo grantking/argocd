@@ -2,14 +2,14 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: helm-petstore
-  namespace: petstore
+  namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     namespace: petstore
     server: https://kubernetes.default.svc
-  project: defaultpet
+  project: default
   source:
 #    path: helm-petstore
 #    repoURL: {{ .Values.spec.source.repoURL }}
