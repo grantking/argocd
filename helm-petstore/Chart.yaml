@@ -11,3 +11,7 @@ dependencies:
   - name: petstore
     version: "0.1.0"
     repository: "https://raw.githubusercontent.com/grantking/helm-repo/master"
+  - name: mysql
+    version: 9.10.10
+    repository: https://charts.bitnami.com/bitnami
+
