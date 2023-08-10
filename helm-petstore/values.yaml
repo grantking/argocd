@@ -8,3 +8,4 @@ petstore:
 mysql:
    persistence:
       enabled: false
+   mysqlRootPassword: welcome123
