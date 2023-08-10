@@ -3,4 +3,4 @@
 # Declare variables to be passed into your templates.
 
 petstore:
-   replicaCount: 3
+   replicaCount: 2
