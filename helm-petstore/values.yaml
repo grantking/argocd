@@ -6,9 +6,8 @@ petstore:
    replicaCount: 2
 
 mysql:
+   fullnameOverride: petstore-mysql
    persistence:
       enabled: false
-   mysqlRootPassword: welcome123
-   mysqlUser: grantking
-   ## Default: random 10 character string
-   mysqlPassword: welcome123
+   auth:
+      rootPassword: welcome123
