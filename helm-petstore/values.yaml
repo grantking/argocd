@@ -9,3 +9,6 @@ mysql:
    persistence:
       enabled: false
    mysqlRootPassword: welcome123
+   mysqlUser: grantking
+   ## Default: random 10 character string
+   mysqlPassword: welcome123
