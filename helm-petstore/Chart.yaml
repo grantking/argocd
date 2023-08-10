@@ -9,7 +9,7 @@ appVersion: "1.0"
 
 dependencies:
   - name: petstore
-    version: "0.2.0"
+    version: "0.3.0"
     repository: "https://raw.githubusercontent.com/grantking/helm-repo/master"
   - name: mysql
     version: 9.10.10
