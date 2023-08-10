@@ -4,3 +4,7 @@
 
 petstore:
    replicaCount: 2
+
+mysql:
+   persistence:
+      enabled: false
