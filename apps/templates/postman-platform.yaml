@@ -5,6 +5,8 @@ metadata:
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   destination:
     namespace: postman-platform
@@ -14,9 +16,3 @@ spec:
     path: postman-platform
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
-
-#    chart: petstore
-#    repoURL: https://raw.githubusercontent.com/grantking/helm-repo/master
-#    targetRevision: 0.1.0
-#    helm:
-#      releaseName: petstore

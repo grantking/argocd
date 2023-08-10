@@ -2,5 +2,9 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-petstore:
-   replicaCount: 2
+mysql:
+   fullnameOverride: shared-mysql
+   persistence:
+      enabled: false
+   auth:
+      rootPassword: welcome123
