@@ -1,0 +1,22 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: helm-configservice
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: helm-configservice
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: helm-configservice
+    repoURL: {{ .Values.spec.source.repoURL }}
+    targetRevision: {{ .Values.spec.source.targetRevision }}
+
+#    chart: petstore
+#    repoURL: https://raw.githubusercontent.com/grantking/helm-repo/master
+#    targetRevision: 0.1.0
+#    helm:
+#      releaseName: petstore
