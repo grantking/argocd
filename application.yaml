@@ -11,7 +11,12 @@ spec:
     repoURL: https://github.com/grantking/argocd.git
     targetRevision: dev-01
     path: apps
-  destination: 
+    helm:
+      parameters:
+        - name: "thisisatest"
+          value: "testtest"
+
+  destination:
     server: https://kubernetes.default.svc
     namespace: dev-01
 
@@ -22,3 +27,4 @@ spec:
     automated:
       selfHeal: true
       prune: true
+
