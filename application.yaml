@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: default
+  project: dev-01
   source:
     repoURL: https://github.com/grantking/argocd.git
     targetRevision: HEAD
