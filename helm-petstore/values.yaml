@@ -5,4 +5,4 @@
 petstore:
    replicaCount: 3
    service:
-      type: LoadBalancer
+      type: NodePort
