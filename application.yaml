@@ -9,7 +9,7 @@ spec:
   project: dev-01
   source:
     repoURL: https://github.com/grantking/argocd.git
-    targetRevision: HEAD
+    targetRevision: dev-01
     path: apps
   destination: 
     server: https://kubernetes.default.svc
