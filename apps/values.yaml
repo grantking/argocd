@@ -4,3 +4,4 @@ spec:
   source:
     repoURL: https://github.com/grantking/argocd.git
     targetRevision: HEAD
+  project: default
