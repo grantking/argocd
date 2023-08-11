@@ -6,14 +6,14 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: dev-01
+  project: dev-02
   source:
     repoURL: https://github.com/grantking/argocd.git
     targetRevision: HEAD
     path: apps
   destination: 
     server: https://kubernetes.default.svc
-    namespace: dev-01
+    namespace: dev-02
 
   syncPolicy:
     syncOptions:
