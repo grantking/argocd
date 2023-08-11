@@ -3,6 +3,6 @@ spec:
     server: https://kubernetes.default.svc
   source:
     repoURL: https://github.com/grantking/argocd.git
-    targetRevision: dev-01
-  project: dev-01
-  namespace: dev-01
+    targetRevision: dev-02
+  project: dev-02
+  namespace: dev-02

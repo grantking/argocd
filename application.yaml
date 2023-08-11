@@ -1,19 +1,19 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev-01-app-base
+  name: dev-02-app-base
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: dev-01
+  project: dev-02
   source:
     repoURL: https://github.com/grantking/argocd.git
-    targetRevision: dev-01
+    targetRevision: dev-02
     path: apps
   destination: 
     server: https://kubernetes.default.svc
-    namespace: dev-01
+    namespace: dev-02
 
   syncPolicy:
     syncOptions:
