@@ -9,6 +9,6 @@ appVersion: "1.0"
 
 dependencies:
   - name: petstore
-    version: 0.2.5
+    version: 0.2.7
     repository: "https://raw.githubusercontent.com/grantking/helm-repo/master"
 
