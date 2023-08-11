@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: postman-data
+  name: {{ .Values.spec.namespace }}-postman-data
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io

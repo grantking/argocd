@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: helm-petstore
+  name: {{ .Values.spec.namespace }}-helm-petstore
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
