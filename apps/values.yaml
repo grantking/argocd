@@ -4,5 +4,5 @@ spec:
   source:
     repoURL: https://github.com/grantking/argocd.git
     targetRevision: HEAD
-  project: dev-02
-  namespace: dev-02
+  project: dev-01
+  namespace: dev-01
