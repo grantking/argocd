@@ -9,6 +9,6 @@ appVersion: "1.0"
 
 dependencies:
   - name: petstore
-    version: 0.4.1
+    version: 0.4.0
     repository: "http://3.18.175.109:8080"
 
