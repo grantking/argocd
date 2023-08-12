@@ -8,6 +8,7 @@ mysql:
       enabled: false
    auth:
       rootPassword: welcome123
+      password: welcome123
    primary:
       livenessProbe:
          enabled: true
