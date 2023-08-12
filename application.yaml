@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev-01-app-base
+  name: dev03-app-base
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -14,11 +14,11 @@ spec:
     helm:
       parameters:
         - name: "pm.namespace"
-          value: "dev01-postman"
+          value: "dev03-postman"
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: dev-01
+    namespace: dev03-postman
 
   syncPolicy:
     syncOptions:
