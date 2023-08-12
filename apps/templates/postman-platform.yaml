@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: {{ .Values.spec.namespace }}-postman-platform
+  name: {{ .Values.pm.namespace }}-postman-platform
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: {{ .Values.spec.namespace }}
+    namespace: {{ .Values.pm.namespace }}
     server: {{ .Values.spec.destination.server }}
   project: {{ .Values.spec.project }}
   source:

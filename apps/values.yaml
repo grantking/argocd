@@ -5,4 +5,3 @@ spec:
     repoURL: https://github.com/grantking/argocd.git
     targetRevision: dev-01
   project: default
-  namespace: dev-01

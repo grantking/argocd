@@ -13,8 +13,8 @@ spec:
     path: apps
     helm:
       parameters:
-        - name: "thisisatest"
-          value: "testtest"
+        - name: "pm.namespace"
+          value: "dev01-postman"
 
   destination:
     server: https://kubernetes.default.svc
