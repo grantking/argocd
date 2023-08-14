@@ -16,7 +16,7 @@ spec:
     targetRevision: {{ .Values.spec.source.targetRevision }}
     helm:
       valueFiles:
-      - values-prod.yaml
+      - values-{{ .Values.pm.size }}.yaml
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
