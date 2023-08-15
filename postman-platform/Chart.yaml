@@ -12,8 +12,8 @@ dependencies:
     version: "0.4.1"
     repository: "http://3.18.175.109:8080"
 
-  - name: prometheus-community/kube-prometheus-stack
-    version: "48.3.1"
+  - name: prometheus-community/prometheus
+    version: "23.3.0"
     repository: "https://prometheus-community.github.io/helm-charts"
 
   - name: grafana/grafana
