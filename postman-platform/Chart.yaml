@@ -16,6 +16,6 @@ dependencies:
     version: "48.3.1"
     repository: "https://prometheus-community.github.io/helm-charts"
 
-  - name: kube-ops/grafana
-    version: "1.0.2"
-    repository: "https://charts.kube-ops.io"
+  - name: grafana/grafana
+    version: "6.58.8"
+    repository: "https://grafana.github.io/helm-charts"
