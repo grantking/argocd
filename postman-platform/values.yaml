@@ -7,3 +7,12 @@ configservice:
 
 grafana:
    adminPassword: admin
+   datasources:
+      datasources.yaml:
+         apiVersion: 1
+         datasources:
+            - name: Prometheus
+              type: prometheus
+              access: proxy
+              url: http://prometheus-server.prometheus.svc.cluster.local
+              isDefault: true

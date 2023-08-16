@@ -12,10 +12,10 @@ dependencies:
     version: "0.4.1"
     repository: "http://3.18.175.109:8080"
 
-#  - name: prometheus
-#    version: "23.3.0"
-#    repository: "https://prometheus-community.github.io/helm-charts"
-#
+  - name: prometheus
+    version: "23.3.0"
+    repository: "https://prometheus-community.github.io/helm-charts"
+
   - name: grafana
     version: "6.58.8"
     repository: "https://grafana.github.io/helm-charts"
