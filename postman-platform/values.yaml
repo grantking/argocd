@@ -11,8 +11,9 @@ grafana:
       datasources.yaml:
          apiVersion: 1
          datasources:
-            - name: Prometheus
+            - name: Prometheus - Postman
               type: prometheus
               access: proxy
-              url: http://prometheus-server.prometheus.svc.cluster.local
+              url: http://{{ .Values.pm.namespace }}-postman-platform-prometheus-server
               isDefault: true
+
