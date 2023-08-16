@@ -14,6 +14,8 @@ grafana:
             - name: Prometheus - Postman
               type: prometheus
               access: proxy
-              url: http://{{ .Values.pm.namespace }}-postman-platform-prometheus-server
+              url: http://postman-prometheus
               isDefault: true
 
+prometheus:
+  fullnameOverride: postman-prometheus
