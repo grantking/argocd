@@ -5,5 +5,5 @@
 configservice:
    replicaCount: 1
 
-   grafana:
-      adminPassword: admin
+grafana:
+   adminPassword: admin
