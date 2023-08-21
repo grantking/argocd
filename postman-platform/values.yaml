@@ -5,17 +5,21 @@
 configservice:
    replicaCount: 1
 
-grafana:
-   adminPassword: admin
-   datasources:
-      datasources.yaml:
-         apiVersion: 1
-         datasources:
-            - name: Prometheus - Postman
-              type: prometheus
-              access: proxy
-              url: http://postman-prometheus
-              isDefault: true
+#grafana:
+#   adminPassword: admin
+#   datasources:
+#      datasources.yaml:
+#         apiVersion: 1
+#         datasources:
+#            - name: Prometheus - Postman
+#              type: prometheus
+#              access: proxy
+#              url: http://postman-prometheus
+#              isDefault: true
+#
+#prometheus:
+#  fullnameOverride: postman-prometheus
 
-prometheus:
-  fullnameOverride: postman-prometheus
+consul:
+  global:
+    name: consul
