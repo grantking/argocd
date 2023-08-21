@@ -9,7 +9,7 @@ appVersion: "1.0"
 
 dependencies:
   - name: configservice
-    version: "0.4.1"
+    version: "0.4.2"
     repository: "http://3.18.175.109:8080"
 
 #  - name: prometheus
