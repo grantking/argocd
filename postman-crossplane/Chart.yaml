@@ -11,4 +11,11 @@ dependencies:
     version: "0.0.2"
     repository: "http://3.18.175.109:8080"
     alias: bucket-01
-
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: bucket-02
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: bucket-03
