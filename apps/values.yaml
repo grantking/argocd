@@ -3,5 +3,5 @@ spec:
     server: https://kubernetes.default.svc
   source:
     repoURL: https://github.com/grantking/argocd.git
-    targetRevision: dev-01
+    targetRevision: crossplane
   project: default

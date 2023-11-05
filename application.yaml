@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev03-app-base
+  name: dev02-app-base
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -9,16 +9,18 @@ spec:
   project: default
   source:
     repoURL: https://github.com/grantking/argocd.git
-    targetRevision: dev-01
+    targetRevision: crossplane
     path: apps
     helm:
       parameters:
         - name: "pm.namespace"
-          value: "dev03-postman"
+          value: "dev02-postman"
+        - name: "pm.pet-version"
+          value: "0.4.1"
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: dev03-postman
+    namespace: postman-crossplane
 
   syncPolicy:
     syncOptions:
