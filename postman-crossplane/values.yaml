@@ -3,5 +3,5 @@
 # Declare variables to be passed into your templates.
 
 bucket-01:
-   bucketName: "bucket01"
+   bucketName: "eu-postman-bucket01"
    awsRegion: "eu-west-2"
