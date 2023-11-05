@@ -16,9 +16,6 @@ spec:
     path: postman-crossplane
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
-    helm:
-      valueFiles:
-      - values-{{ .Values.pm.size }}.yaml
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
