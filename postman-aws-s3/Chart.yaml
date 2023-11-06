@@ -263,31 +263,31 @@ dependencies:
     version: "0.0.2"
     repository: "http://3.18.175.109:8080"
     alias: eu-1-reporting-serverless-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-ruleset-service-preview-assets
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-ruleset-worker-preview-deployment-bucket
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-scribe-service-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-search-serverless-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-sentinel-engine-preview-deployment-bucket
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-synapse-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-workspace-template-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-ruleset-service-preview-assets
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-ruleset-worker-preview-deployment-bucket
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-scribe-service-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-search-serverless-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-sentinel-engine-preview-deployment-bucket
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-synapse-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-workspace-template-preview
