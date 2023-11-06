@@ -63,10 +63,10 @@ dependencies:
     version: "0.0.2"
     repository: "http://3.18.175.109:8080"
     alias: eu-1-environment-reference-keyframes-preview
-  - name: s3-bucket-chart
-    version: "0.0.2"
-    repository: "http://3.18.175.109:8080"
-    alias: eu-1-export-preview.pstmn.io
+#  - name: s3-bucket-chart
+#    version: "0.0.2"
+#    repository: "http://3.18.175.109:8080"
+#    alias: eu-1-export-preview.pstmn.io
   - name: s3-bucket-chart
     version: "0.0.2"
     repository: "http://3.18.175.109:8080"
