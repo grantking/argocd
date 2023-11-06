@@ -35,34 +35,34 @@ dependencies:
     version: "0.0.2"
     repository: "http://3.18.175.109:8080"
     alias: eu-1-cdk-hnb659fds-assets-010193988155-us-east-1
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-cf-static-assets-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-codegen-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-common-components-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-desktop-app-artifact-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-documenter-assets-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-elasticbeanstalk-us-east-1-010193988155
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-environment-reference-keyframes-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-cf-static-assets-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-codegen-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-common-components-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-desktop-app-artifact-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-documenter-assets-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-elasticbeanstalk-us-east-1-010193988155
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-environment-reference-keyframes-preview
 #  - name: s3-bucket-chart
 #    version: "0.0.2"
 #    repository: "http://3.18.175.109:8080"
