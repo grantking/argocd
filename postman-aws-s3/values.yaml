@@ -11,3 +11,6 @@ bucket-02:
 bucket-03:
    bucketName: "eu-postman-bucket03"
    awsRegion: "eu-west-2"
+bucket-04:
+   bucketName: "eu-postman-bucket04"
+   awsRegion: "eu-west-2"
