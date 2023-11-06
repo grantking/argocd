@@ -11,18 +11,18 @@ dependencies:
     version: "0.0.2"
     repository: "http://3.18.175.109:8080"
     alias: eu-1-aether-assets-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-api-network-deployment-bucket-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-api-v10-migration-preview
-#  - name: s3-bucket-chart
-#    version: "0.0.2"
-#    repository: "http://3.18.175.109:8080"
-#    alias: eu-1-app-updates-agent-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-api-network-deployment-bucket-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-api-v10-migration-preview
+  - name: s3-bucket-chart
+    version: "0.0.2"
+    repository: "http://3.18.175.109:8080"
+    alias: eu-1-app-updates-agent-preview
 #  - name: s3-bucket-chart
 #    version: "0.0.2"
 #    repository: "http://3.18.175.109:8080"
