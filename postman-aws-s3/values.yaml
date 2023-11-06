@@ -1,16 +1,213 @@
-# Default values for helm-guestbook.
-# This is a YAML-formatted file.
-# Declare variables to be passed into your templates.
-
-bucket-01:
-   bucketName: "eu-postman-bucket01"
-   awsRegion: "eu-west-2"
-bucket-02:
-   bucketName: "eu-postman-bucket02"
-   awsRegion: "eu-west-2"
-bucket-03:
-   bucketName: "eu-postman-bucket03"
-   awsRegion: "eu-west-2"
-bucket-04:
-   bucketName: "eu-postman-bucket04"
-   awsRegion: "eu-west-2"
+eu-1-aether-assets-preview:
+   bucketName: "eu-1-aether-assets-preview"
+   awsRegion: "eu-central-1"
+eu-1-api-network-deployment-bucket-preview:
+   bucketName: "eu-1-api-network-deployment-bucket-preview"
+   awsRegion: "eu-central-1"
+eu-1-api-v10-migration-preview:
+   bucketName: "eu-1-api-v10-migration-preview"
+   awsRegion: "eu-central-1"
+eu-1-app-updates-agent-preview:
+   bucketName: "eu-1-app-updates-agent-preview"
+   awsRegion: "eu-central-1"
+eu-1-app-updates-cli-preview:
+   bucketName: "eu-1-app-updates-cli-preview"
+   awsRegion: "eu-central-1"
+eu-1-app-updates-preview:
+   bucketName: "eu-1-app-updates-preview"
+   awsRegion: "eu-central-1"
+eu-1-cdk-hnb659fds-assets-010193988155-us-east-1:
+   bucketName: "eu-1-cdk-hnb659fds-assets-010193988155-us-east-1"
+   awsRegion: "eu-central-1"
+eu-1-cf-static-assets-preview:
+   bucketName: "eu-1-cf-static-assets-preview"
+   awsRegion: "eu-central-1"
+eu-1-codegen-preview:
+   bucketName: "eu-1-codegen-preview"
+   awsRegion: "eu-central-1"
+eu-1-common-components-preview:
+   bucketName: "eu-1-common-components-preview"
+   awsRegion: "eu-central-1"
+eu-1-desktop-app-artifact-preview:
+   bucketName: "eu-1-desktop-app-artifact-preview"
+   awsRegion: "eu-central-1"
+eu-1-documenter-assets-preview:
+   bucketName: "eu-1-documenter-assets-preview"
+   awsRegion: "eu-central-1"
+eu-1-elasticbeanstalk-us-east-1-010193988155:
+   bucketName: "eu-1-elasticbeanstalk-us-east-1-010193988155"
+   awsRegion: "eu-central-1"
+eu-1-environment-reference-keyframes-preview:
+   bucketName: "eu-1-environment-reference-keyframes-preview"
+   awsRegion: "eu-central-1"
+eu-1-export-preview.pstmn.io:
+   bucketName: "eu-1-export-preview.pstmn.io"
+   awsRegion: "eu-central-1"
+eu-1-falcon-preview-assets:
+   bucketName: "eu-1-falcon-preview-assets"
+   awsRegion: "eu-central-1"
+eu-1-falcon-worker-preview-deployment-bucket:
+   bucketName: "eu-1-falcon-worker-preview-deployment-bucket"
+   awsRegion: "eu-central-1"
+eu-1-iam-merge-assessment-report-storage-preview:
+   bucketName: "eu-1-iam-merge-assessment-report-storage-preview"
+   awsRegion: "eu-central-1"
+eu-1-identity-service-unclaimed-accounts-for-domain-preview:
+   bucketName: "eu-1-identity-service-unclaimed-accounts-for-domain-preview"
+   awsRegion: "eu-central-1"
+eu-1-integrations-api-repository-preview:
+   bucketName: "eu-1-integrations-api-repository-preview"
+   awsRegion: "eu-central-1"
+eu-1-integrations-events-preview:
+   bucketName: "eu-1-integrations-events-preview"
+   awsRegion: "eu-central-1"
+eu-1-integrations-oauth-callback-preview:
+   bucketName: "eu-1-integrations-oauth-callback-preview"
+   awsRegion: "eu-central-1"
+eu-1-mock-call-log-preview:
+   bucketName: "eu-1-mock-call-log-preview"
+   awsRegion: "eu-central-1"
+eu-1-monitoring-file-system-preview:
+   bucketName: "eu-1-monitoring-file-system-preview"
+   awsRegion: "eu-central-1"
+eu-1-platform-compliance-cc2-preview:
+   bucketName: "eu-1-platform-compliance-cc2-preview"
+   awsRegion: "eu-central-1"
+eu-1-platform-compliance-preview:
+   bucketName: "eu-1-platform-compliance-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-akita-field-timeline-preview:
+   bucketName: "eu-1-pm-akita-field-timeline-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-akita-lambda-messages-preview:
+   bucketName: "eu-1-pm-akita-lambda-messages-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-akita-superstar-msgs-preview:
+   bucketName: "eu-1-pm-akita-superstar-msgs-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-akita-witness-preview:
+   bucketName: "eu-1-pm-akita-witness-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-api-definitions-preview:
+   bucketName: "eu-1-pm-api-definitions-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-api-dev-preview:
+   bucketName: "eu-1-pm-api-dev-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-api-governance-assets-preview:
+   bucketName: "eu-1-pm-api-governance-assets-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-api-publish-entities-preview:
+   bucketName: "eu-1-pm-api-publish-entities-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-app-updates-desktop-agent-cloudfront-logs:
+   bucketName: "eu-1-pm-app-updates-desktop-agent-cloudfront-logs"
+   awsRegion: "eu-central-1"
+eu-1-pm-artemis-assets-preview:
+   bucketName: "eu-1-pm-artemis-assets-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-artemis-desktop-app-assets-preview:
+   bucketName: "eu-1-pm-artemis-desktop-app-assets-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-artemis-desktop-enterprise-assets-preview:
+   bucketName: "eu-1-pm-artemis-desktop-enterprise-assets-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-artemis-wp-assets-preview:
+   bucketName: "eu-1-pm-artemis-wp-assets-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-collection-template-preview:
+   bucketName: "eu-1-pm-collection-template-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-janus-gateway-preview:
+   bucketName: "eu-1-pm-janus-gateway-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-live-collections-preview:
+   bucketName: "eu-1-pm-live-collections-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-operations-snapshot-preview:
+   bucketName: "eu-1-pm-operations-snapshot-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-preview-aws-config-delivery:
+   bucketName: "eu-1-pm-preview-aws-config-delivery"
+   awsRegion: "eu-central-1"
+eu-1-pm-preview-vpc-flow-logs:
+   bucketName: "eu-1-pm-preview-vpc-flow-logs"
+   awsRegion: "eu-central-1"
+eu-1-pm-runtime-assets-preview:
+   bucketName: "eu-1-pm-runtime-assets-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-sync-preview:
+   bucketName: "eu-1-pm-sync-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-trash-preview:
+   bucketName: "eu-1-pm-trash-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-user-uploaded-assets-preview:
+   bucketName: "eu-1-pm-user-uploaded-assets-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-vcs-changelog-meta-preview:
+   bucketName: "eu-1-pm-vcs-changelog-meta-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-vcs-changelog-snapshot-preview:
+   bucketName: "eu-1-pm-vcs-changelog-snapshot-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-vcs-keyframes-preview:
+   bucketName: "eu-1-pm-vcs-keyframes-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-vcs-pullrequests-preview:
+   bucketName: "eu-1-pm-vcs-pullrequests-preview"
+   awsRegion: "eu-central-1"
+eu-1-pm-vcs-reference-keyframes-preview:
+   bucketName: "eu-1-pm-vcs-reference-keyframes-preview"
+   awsRegion: "eu-central-1"
+eu-1-postman-payments-preview:
+   bucketName: "eu-1-postman-payments-preview"
+   awsRegion: "eu-central-1"
+eu-1-postman-plan-service-preview:
+   bucketName: "eu-1-postman-plan-service-preview"
+   awsRegion: "eu-central-1"
+eu-1-postman-preview-com-cloudfront-log:
+   bucketName: "eu-1-postman-preview-com-cloudfront-log"
+   awsRegion: "eu-central-1"
+eu-1-postman-preview-seo:
+   bucketName: "eu-1-postman-preview-seo"
+   awsRegion: "eu-central-1"
+eu-1-preview-apinet-sitemap:
+   bucketName: "eu-1-preview-apinet-sitemap"
+   awsRegion: "eu-central-1"
+eu-1-preview-beanstalk-ecr-image-app-versions:
+   bucketName: "eu-1-preview-beanstalk-ecr-image-app-versions"
+   awsRegion: "eu-central-1"
+eu-1-preview-common-assets:
+   bucketName: "eu-1-preview-common-assets"
+   awsRegion: "eu-central-1"
+eu-1-preview-redshift-integration:
+   bucketName: "eu-1-preview-redshift-integration"
+   awsRegion: "eu-central-1"
+eu-1-private-network-preview:
+   bucketName: "eu-1-private-network-preview"
+   awsRegion: "eu-central-1"
+eu-1-reporting-serverless-preview:
+   bucketName: "eu-1-reporting-serverless-preview"
+   awsRegion: "eu-central-1"
+eu-1-ruleset-service-preview-assets:
+   bucketName: "eu-1-ruleset-service-preview-assets"
+   awsRegion: "eu-central-1"
+eu-1-ruleset-worker-preview-deployment-bucket:
+   bucketName: "eu-1-ruleset-worker-preview-deployment-bucket"
+   awsRegion: "eu-central-1"
+eu-1-scribe-service-preview:
+   bucketName: "eu-1-scribe-service-preview"
+   awsRegion: "eu-central-1"
+eu-1-search-serverless-preview:
+   bucketName: "eu-1-search-serverless-preview"
+   awsRegion: "eu-central-1"
+eu-1-sentinel-engine-preview-deployment-bucket:
+   bucketName: "eu-1-sentinel-engine-preview-deployment-bucket"
+   awsRegion: "eu-central-1"
+eu-1-synapse-preview:
+   bucketName: "eu-1-synapse-preview"
+   awsRegion: "eu-central-1"
+eu-1-workspace-template-preview:
+   bucketName: "eu-1-workspace-template-preview"
+   awsRegion: "eu-central-1"
