@@ -1,17 +1,17 @@
 apiVersion: lambda.aws.upbound.io/v1beta1
 kind: Function
 metadata:
-  name: example2
+  name: iam-ums-node-migrator
 spec:
   forProvider:
-    s3Bucket: gktest11223344
-    s3Key: testfolder/dummy-poc.zip
+    s3Bucket: gk-test-lambda
+    s3Key: iam-ums-node-migrator/0_0_1.zip
     handler: index.handler
     packageType: Zip
-    region: us-east-2
+    region: eu-central-1
     roleSelector:
       matchLabels:
-        testing.upbound.io/example-name: role
+        testing.upbound.io/role-iam-ums-node-migrator: role
     runtime: nodejs18.x
     timeout: 60
 #    vpcConfig:
@@ -30,8 +30,8 @@ metadata:
   annotations:
     meta.upbound.io/example-id: lambda/v1beta1/function
   labels:
-    testing.upbound.io/example-name: role
-  name: sample-role-auto-gk
+    testing.upbound.io/role-iam-ums-node-migrator: role
+  name: auto-lambda-role-iam-ums-node-migrator
 spec:
   forProvider:
     assumeRolePolicy: |
@@ -55,8 +55,8 @@ metadata:
   annotations:
     meta.upbound.io/example-id: lambda/v1beta1/function
   labels:
-    testing.upbound.io/example-name: policy
-  name: sample-user-policy
+    testing.upbound.io/policy-iam-ums-node-migrator: policy
+  name: auto-lambda-policy-iam-ums-node-migrator
 spec:
   forProvider:
     policy: |
@@ -85,14 +85,14 @@ kind: RolePolicyAttachment
 metadata:
   annotations:
     meta.upbound.io/example-id: lambda/v1beta1/function
-  name: sample-user-policy-attachment
+  name: auto-lambda-policy-attach-iam-ums-node-migrator
   labels:
-    testing.upbound.io/example-name: policy-attachment
+    testing.upbound.io/policy-attach-iam-ums-node-migrator: policy-attachment
 spec:
   forProvider:
     policyArnSelector:
       matchLabels:
-        testing.upbound.io/example-name: policy
+        testing.upbound.io/policy-iam-ums-node-migrator: policy
     roleSelector:
       matchLabels:
-        testing.upbound.io/example-name: role
+        testing.upbound.io/role-iam-ums-node-migrator: role
