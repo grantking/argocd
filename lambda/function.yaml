@@ -8,7 +8,7 @@ spec:
     s3Key: iam-ums-node-migrator/0_0_1.zip
     handler: index.handler
     packageType: Zip
-    region: eu-central-1
+    region: eu-west-1
     roleSelector:
       matchLabels:
         testing.upbound.io/role-iam-ums-node-migrator: role
