@@ -1,0 +1,23 @@
+apiVersion: lambda.aws.upbound.io/v1beta1
+kind: Function
+metadata:
+  name: example
+spec:
+  forProvider:
+    s3Bucket: gktest11223344
+    s3Key: GrantFirstFunction.zip
+    handler: index.handler
+    packageType: Zip
+    region: us-east-2
+    #    roleSelector:
+    #      matchLabels:
+    #        testing.upbound.io/example-name: role
+    runtime: nodejs18.x
+    timeout: 60
+#    vpcConfig:
+#      - securityGroupIdSelector:
+#          matchLabels:
+#            testing.upbound.io/example-name: example
+#        subnetIdSelector:
+#          matchLabels:
+#            testing.upbound.io/example-name: example
