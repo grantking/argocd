@@ -9,9 +9,9 @@ spec:
     handler: index.handler
     packageType: Zip
     region: us-east-2
-    #    roleSelector:
-    #      matchLabels:
-    #        testing.upbound.io/example-name: role
+    roleSelector:
+      matchLabels:
+        testing.upbound.io/example-name: role
     runtime: nodejs18.x
     timeout: 60
 #    vpcConfig:
@@ -21,3 +21,78 @@ spec:
 #        subnetIdSelector:
 #          matchLabels:
 #            testing.upbound.io/example-name: example
+
+---
+
+apiVersion: iam.aws.upbound.io/v1beta1
+kind: Role
+metadata:
+  annotations:
+    meta.upbound.io/example-id: lambda/v1beta1/function
+  labels:
+    testing.upbound.io/example-name: role
+  name: sample-role-auto-gk
+spec:
+  forProvider:
+    assumeRolePolicy: |
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": "sts:AssumeRole",
+            "Principal": {
+              "Service": ["ec2.amazonaws.com", "lambda.amazonaws.com"]
+            },
+            "Effect": "Allow",
+            "Sid": ""
+          }
+        ]
+      }
+---
+apiVersion: iam.aws.upbound.io/v1beta1
+kind: Policy
+metadata:
+  annotations:
+    meta.upbound.io/example-id: lambda/v1beta1/function
+  labels:
+    testing.upbound.io/example-name: policy
+  name: sample-user-policy
+spec:
+  forProvider:
+    policy: |
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": [
+                "ec2:DescribeVpcEndpoints",
+                "ec2:DescribeRouteTables",
+                "ec2:CreateNetworkInterface",
+                "ec2:DeleteNetworkInterface",
+                "ec2:DescribeSecurityGroups",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeVpcAttribute",
+                "ec2:DescribeNetworkInterfaces"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+          }
+        ]
+      }
+---
+apiVersion: iam.aws.upbound.io/v1beta1
+kind: RolePolicyAttachment
+metadata:
+  annotations:
+    meta.upbound.io/example-id: lambda/v1beta1/function
+  name: sample-user-policy-attachment
+  labels:
+    testing.upbound.io/example-name: policy-attachment
+spec:
+  forProvider:
+    policyArnSelector:
+      matchLabels:
+        testing.upbound.io/example-name: policy
+    roleSelector:
+      matchLabels:
+        testing.upbound.io/example-name: role
