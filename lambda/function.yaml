@@ -1,7 +1,7 @@
 apiVersion: lambda.aws.upbound.io/v1beta1
 kind: Function
 metadata:
-  name: example
+  name: example2
 spec:
   forProvider:
     s3Bucket: gktest11223344
