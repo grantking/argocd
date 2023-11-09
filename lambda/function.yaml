@@ -5,7 +5,7 @@ metadata:
 spec:
   forProvider:
     s3Bucket: gktest11223344
-    s3Key: GrantFirstFunction.zip
+    s3Key: testfolder/dummy-poc.zip
     handler: index.handler
     packageType: Zip
     region: us-east-2
