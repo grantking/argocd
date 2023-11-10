@@ -4,7 +4,7 @@ metadata:
   name: iam-ums-node-migrator
 spec:
   forProvider:
-    s3Bucket: gk-test-lambda
+    s3Bucket: eu-central-1-gk-test-lambda
     s3Key: iam-ums-node-migrator/0_0_1.zip
     handler: index.handler
     packageType: Zip
