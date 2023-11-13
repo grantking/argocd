@@ -76,14 +76,6 @@ spec:
             "Effect": "Allow",
             "Resource": "*"
           }
-        ],[
-          {
-            "Action": [
-                "s3:CreateJob"
-            ],
-            "Effect": "Allow",
-            "Resource": "*"
-          }
         ]
       }
 ---
