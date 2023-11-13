@@ -1,6 +1,12 @@
 eu-1-aether-assets-preview:
    bucketName: "eu-1-aether-assets-preview"
    awsRegion: "eu-central-1"
+
+lambda01:
+   bucketName: gk-test-lambda
+   awsRegion: eu-central-1
+   lambdaName: myLambda
+   lambdaVersion: 0_0_1
 #eu-1-api-network-deployment-bucket-preview:
 #   bucketName: "eu-1-api-network-deployment-bucket-preview"
 #   awsRegion: "eu-central-1"
