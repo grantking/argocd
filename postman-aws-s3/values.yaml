@@ -7,6 +7,34 @@ lambda01:
    awsRegion: eu-central-1
    lambdaName: my-lambda
    lambdaVersion: "0_0_1"
+   policyConfig: |
+      { "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": [
+                "ec2:DescribeVpcEndpoints",
+                "ec2:DescribeRouteTables",
+                "ec2:DeleteNetworkInterface",
+                "ec2:DescribeSecurityGroups",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeVpcAttribute",
+                "ec2:DescribeNetworkInterfaces"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+          },
+          {
+            "Action": [
+                "s3:CreateJob"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+          }
+        ]      
+      }
+
+
+
 #eu-1-api-network-deployment-bucket-preview:
 #   bucketName: "eu-1-api-network-deployment-bucket-preview"
 #   awsRegion: "eu-central-1"
