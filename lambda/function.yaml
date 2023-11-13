@@ -88,6 +88,32 @@ spec:
       }
 ---
 apiVersion: iam.aws.upbound.io/v1beta1
+kind: Policy
+metadata:
+  annotations:
+    meta.upbound.io/example-id: lambda/v1beta1/function
+  labels:
+    testing.upbound.io/policy-iam-ums-node-migrator: policy
+  name: auto-lambda-policy-iam-ums-node-migrator-2
+spec:
+  forProvider:
+    policy: |
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": [
+                "s3:CreateJob"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+          }
+        ]
+      }
+---
+
+
+apiVersion: iam.aws.upbound.io/v1beta1
 kind: RolePolicyAttachment
 metadata:
   annotations:
