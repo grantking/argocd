@@ -79,9 +79,9 @@ spec:
         ],[
           {
             "Action": [
-                "ec2:CreateNetworkInterface"
+                "s3:CreateJob"
             ],
-            "Effect": "Disallow",
+            "Effect": "Allow",
             "Resource": "*"
           }
         ]
