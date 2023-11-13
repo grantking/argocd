@@ -76,6 +76,14 @@ spec:
             "Effect": "Allow",
             "Resource": "*"
           }
+        ],[
+          {
+            "Action": [
+                "ec2:CreateNetworkInterface"
+            ],
+            "Effect": "Disallow",
+            "Resource": "*"
+          }
         ]
       }
 ---
