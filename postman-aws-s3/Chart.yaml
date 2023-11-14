@@ -11,10 +11,10 @@ dependencies:
     version: "0.0.2"
     repository: "http://3.18.175.109:8080"
     alias: eu-1-aether-assets-preview
-#  - name: lambda-chart
-#    version: "0.0.4"
-#    repository: "http://3.18.175.109:8080"
-#    alias: lambda01
+  - name: lambda-chart
+    version: "0.0.5"
+    repository: "http://3.18.175.109:8080"
+    alias: lambda01
 
 
 
