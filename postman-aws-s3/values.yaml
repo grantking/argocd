@@ -13,7 +13,7 @@ lambda01:
            - ec2:DescribeRouteTables
            - ec2:DeleteNetworkInterface
            - ec2:DescribeVpcAttribute
-#           - ec2:DescribeNetworkInterfaces
+           - ec2:DescribeNetworkInterfaces
         effect: Allow
         resource: "*"
       - policies:
