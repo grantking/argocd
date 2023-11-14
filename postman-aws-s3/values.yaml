@@ -14,11 +14,11 @@ lambda01:
            - ec2:DeleteNetworkInterface
            - ec2:DescribeVpcAttribute
            - ec2:DescribeNetworkInterfaces
-        effect: Allows
+        effect: Allow
         resource: "*"
       - policies:
            - s3:CreateJob
-        effect: Allows
+        effect: Allow
         resource: "*"
 
 
