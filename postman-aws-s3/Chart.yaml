@@ -12,7 +12,7 @@ dependencies:
     repository: "http://3.18.175.109:8080"
     alias: eu-1-aether-assets-preview
   - name: lambda-chart
-    version: "1.4.42-develop3"
+    version: "1.4.42-develop4"
     repository: "http://3.18.175.109:8080"
 
 #  - name: lambda-chart
