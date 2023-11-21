@@ -2,24 +2,28 @@ eu-1-aether-assets-preview:
    bucketName: "eu-1-aether-assets-preview"
    awsRegion: "eu-central-1"
 
-lambda01:
-   bucketName: gk-test-lambda
-   awsRegion: eu-central-1
-   lambdaName: my-lambda
-   lambdaVersion: "0_0_1"
-   policyConfig:
-      - policies:
-           - ec2:DescribeVpcEndpoints
-           - ec2:DescribeRouteTables
-           - ec2:DeleteNetworkInterface
-           - ec2:DescribeVpcAttribute
-           - ec2:DescribeNetworkInterfaces
-        effect: Allow
-        resource: "*"
-      - policies:
-           - s3:CreateJob
-        effect: Allow
-        resource: "*"
+lambda-chart:
+  awsRegion: "eu-central-1"
+
+
+#lambda01:
+#   bucketName: gk-test-lambda
+#   awsRegion: eu-central-1
+#   lambdaName: my-lambda
+#   lambdaVersion: "0_0_1"
+#   policyConfig:
+#      - policies:
+#           - ec2:DescribeVpcEndpoints
+#           - ec2:DescribeRouteTables
+#           - ec2:DeleteNetworkInterface
+#           - ec2:DescribeVpcAttribute
+#           - ec2:DescribeNetworkInterfaces
+#        effect: Allow
+#        resource: "*"
+#      - policies:
+#           - s3:CreateJob
+#        effect: Allow
+#        resource: "*"
 
 
 #eu-1-api-network-deployment-bucket-preview:
