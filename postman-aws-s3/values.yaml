@@ -5,7 +5,8 @@ eu-1-aether-assets-preview:
 lambda-chart:
   awsRegion: "eu-central-1"
   phase: "acceptance"
-  
+  bucketName: "gk-test-lambda"
+
 
 
 #lambda01:
