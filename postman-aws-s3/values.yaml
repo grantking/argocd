@@ -6,9 +6,10 @@ lambda-chart:
   awsRegion: "eu-central-1"
   phase: "acceptance"
   bucketName: "gk-test-lambda"
-  extraVariables:
-    test: "green",
-    test2: "hello"
+  environment:
+    extraVariables:
+      test: "green"
+      test2: "hello"
 
 
 #lambda01:
