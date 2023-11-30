@@ -13,9 +13,7 @@ lambda-chart:
       test3: "hello33333"
   extraTags:
     gk_test: "dasddd"
-  tags:
-    service1: "ddddd"
-    servicetest: "gggg"
+
 
 #lambda01:
 #   bucketName: gk-test-lambda
