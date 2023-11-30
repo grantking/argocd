@@ -12,7 +12,7 @@ lambda-chart:
       test2: "hello"
       test3: "hello33333"
   extraTags:
-    "gk_test": "dasddd"
+    gk_test: "dasddd"
 
 
 #lambda01:
