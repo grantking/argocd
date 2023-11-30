@@ -10,6 +10,8 @@ lambda-chart:
     extraVariables:
       test: "green"
       test2: "hello"
+      test3: "hello33333"
+
 
 
 #lambda01:
