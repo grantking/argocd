@@ -13,7 +13,7 @@ dependencies:
     alias: eu-1-aether-assets-preview
 
   - name: lambda-chart
-    version: "0.0.30"
+    version: "0.0.31"
     repository: "http://3.18.175.109:8080"
 
 #  - name: lambda-chart
