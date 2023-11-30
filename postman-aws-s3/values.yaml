@@ -3,9 +3,9 @@ eu-1-aether-assets-preview:
    awsRegion: "eu-central-1"
 
 lambda-chart:
-  awsRegion: "eu-central-1"
+  aws_region: "eu-central-1"
   phase: "acceptance"
-  bucketName: "gk-test-lambda"
+  bucket_name: "gk-test-lambda"
 
 
 
