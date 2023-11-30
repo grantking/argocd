@@ -11,7 +11,8 @@ lambda-chart:
       test: "green"
       test2: "hello"
       test3: "hello33333"
-
+  extraTags:
+    "gk_test": "dasddd"
 
 
 #lambda01:
