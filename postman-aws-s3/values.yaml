@@ -13,7 +13,11 @@ lambda-chart:
       test3: "hello33333"
   extraTags:
     gk_test: "dasddd"
-
+  vpcConfig:
+    securityGroupIds:
+      - 'sg-05112860fb02fc895'
+    subnetIds:
+      - 'subnet-0eeb2c63b830a34f6'
 
 #lambda01:
 #   bucketName: gk-test-lambda
