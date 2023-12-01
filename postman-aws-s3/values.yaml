@@ -6,6 +6,7 @@ lambda-chart:
   awsRegion: "eu-central-1"
   phase: "acceptance"
   bucketName: "gk-test-lambda"
+  ephemeralStorage: 513
   environment:
     extraVariables:
       test: "green"
