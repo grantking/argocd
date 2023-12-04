@@ -1,24 +1,24 @@
-#eu-1-aether-assets-preview:
-#   bucketName: "eu-1-aether-assets-preview"
-#   awsRegion: "eu-central-1"
-#
-#lambda-chart:
-#  awsRegion: "eu-central-1"
-#  phase: "acceptance"
-#  bucketName: "gk-test-lambda"
-#  ephemeralStorage: 513
-#  environment:
-#    extraVariables:
-#      test: "green"
-#      test2: "hello"
-#      test3: "hello33333"
-#  extraTags:
-#    gk_test: "dasddd"
-#  vpcConfig:
-#    securityGroupIds:
-#      - 'sg-05112860fb02fc895'
-#    subnetIds:
-#      - 'subnet-0eeb2c63b830a34f6'
+eu-1-aether-assets-preview:
+   bucketName: "eu-1-aether-assets-preview"
+   awsRegion: "eu-central-1"
+
+lambda-chart:
+  awsRegion: "eu-central-1"
+  phase: "acceptance"
+  bucketName: "gk-test-lambda"
+  ephemeralStorage: 513
+  environment:
+    extraVariables:
+      test: "green"
+      test2: "hello"
+      test3: "hello33333"
+  extraTags:
+    gk_test: "dasddd"
+  vpcConfig:
+    securityGroupIds:
+      - 'sg-05112860fb02fc895'
+    subnetIds:
+      - 'subnet-0eeb2c63b830a34f6'
 
 #  sqs-chart:
 #    awsRegion: "eu-central-1"
