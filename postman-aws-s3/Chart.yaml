@@ -20,6 +20,7 @@ dependencies:
     version: "0.1.08-develop"
     repository: "http://3.18.175.109:8080"
 
+
 #  - name: lambda-chart
 #    version: "0.0.7"
 #    repository: "http://3.18.175.109:8080"

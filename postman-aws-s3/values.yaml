@@ -20,16 +20,10 @@ lambda-chart:
     subnetIds:
       - 'subnet-0eeb2c63b830a34f6'
 
-  sqs-chart:
-    awsRegion: "eu-central-1"
-    phase: "acceptance"
-    queueName: "gk-test-queue"
-
-  example:
-    awsRegion: "eu-central-1"
-    region: "eu-central-1"
-    phase: "acceptance"
-    queueName: "gk-test-queue"
+sqs-chart:
+  awsRegion: "eu-central-1"
+  phase: "acceptance"
+  queueName: "gk-test-queue"
 
 #lambda01:
 #   bucketName: gk-test-lambda
