@@ -22,6 +22,7 @@ lambda-chart:
 
   sqs-chart:
     awsRegion: "eu-central-1"
+    region: "eu-central-1"
     phase: "acceptance"
     queueName: "gk-test-queue"
 
