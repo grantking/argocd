@@ -20,10 +20,28 @@ lambda-chart:
     subnetIds:
       - 'subnet-0eeb2c63b830a34f6'
 
+#sqs-chart:
+#  awsRegion: "eu-central-1"
+#  phase: "acceptance"
+#  queueName: "gk-test-queue"
+
 sqs-chart:
   awsRegion: "eu-central-1"
-  phase: "acceptance"
-  queueName: "gk-test-queue"
+  phase: "phase1"
+  akita-spec-request.fifo:
+  queueName: akita-spec-request.fifo
+  delaySeconds: 0
+  maxMessageSize: 262144
+  fifoQueue: true
+  messageRetentionSeconds: 345600
+  receiveWaitTimeSeconds: 0
+  visibilityTimeoutSeconds: 30
+  contentBasedDeduplication: false
+  deduplicationScope: queue
+  fifoThroughputLimit: perQueue
+  sqsManagedSseEnabled: true
+
+
 
 #lambda01:
 #   bucketName: gk-test-lambda
