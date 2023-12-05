@@ -16,9 +16,9 @@ dependencies:
     version: "0.0.41"
     repository: "http://3.18.175.109:8080"
 
-  - name: sqs-chart
-    version: "0.1.03-develop"
-    repository: "http://3.18.175.109:8080"
+#  - name: sqs-chart
+#    version: "0.1.03-develop"
+#    repository: "http://3.18.175.109:8080"
 
 #  - name: lambda-chart
 #    version: "0.0.7"
