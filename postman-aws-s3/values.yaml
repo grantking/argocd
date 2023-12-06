@@ -28,7 +28,6 @@ lambda-chart:
 sqs-chart:
   awsRegion: "eu-central-1"
   phase: "phase1"
-  akita-spec-request.fifo:
   queueName: akita-spec-request.fifo
   delaySeconds: 0
   maxMessageSize: 262144
