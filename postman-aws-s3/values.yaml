@@ -39,7 +39,11 @@ sqs-chart:
   deduplicationScope: queue
   fifoThroughputLimit: perQueue
   sqsManagedSseEnabled: true
-
+  tags:
+    resource-name: 'ffff'
+    resource-env: 'ggggg'
+    resource-group: 'sentinel-ssss'
+    resource-domain: 'product-aaaa'
 
 
 #lambda01:
