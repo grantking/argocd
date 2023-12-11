@@ -20,6 +20,12 @@ dependencies:
     version: "0.1.16-develop"
     repository: "http://3.18.175.109:8080"
 
+  - name: hashicorp/vault
+    version: "0.27.0"
+    repository: "https://helm.releases.hashicorp.com"
+
+
+
 
 #  - name: lambda-chart
 #    version: "0.0.7"
