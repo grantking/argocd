@@ -20,7 +20,7 @@ dependencies:
     version: "0.1.16-develop"
     repository: "http://3.18.175.109:8080"
 
-  - name: hashicorp/vault
+  - name: vault
     version: "0.26.1"
     repository: "https://helm.releases.hashicorp.com"
 
