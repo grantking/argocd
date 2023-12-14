@@ -7,14 +7,14 @@ version: 0.1.0
 appVersion: "1.0"
 
 dependencies:
-  - name: s3-bucket-chart
-    version: "0.0.2"
-    repository: "http://3.18.175.109:8080"
-    alias: eu-1-aether-assets-preview
+#  - name: s3-bucket-chart
+#    version: "0.0.2"
+#    repository: "http://3.18.175.109:8080"
+#    alias: eu-1-aether-assets-preview
 
-  - name: lambda-chart
-    version: "0.0.41"
-    repository: "http://3.18.175.109:8080"
+#  - name: lambda-chart
+#    version: "0.0.41"
+#    repository: "http://3.18.175.109:8080"
 
   - name: sqs-chart
     version: "0.1.16-develop"
